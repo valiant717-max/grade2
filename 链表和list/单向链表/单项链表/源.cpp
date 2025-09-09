@@ -12,7 +12,8 @@ int main() {
 	int q;
 	cin >> q;
 	id++;
-	e[id] = -1;
+	e[id] = 1;
+	mp[1] = id;
 	 
 	while (q--) {
 		int op, x, y;
