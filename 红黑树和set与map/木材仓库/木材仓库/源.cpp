@@ -20,10 +20,7 @@ int main() {
 		if (mp.size() == 2) {
 			cout << "Empty" << endl;
 		}
-		else {
-			cout << "Empty" << endl;
-
-		}
+		
 		else {
 			auto it = mp.lower_bound(len);
 			auto tmp = it;

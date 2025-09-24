@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u5927\u4E8C\u4E0A\\\u54C8\u5E0C\u8868\u548Cunordered_set\u4E0Eunordered_map\\Cities and States\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E962947-116A-49D9-AC5B-73230493D794}|Cities and States\\Cities and States.vcxproj|D:\\\u5927\u4E8C\u4E0A\\\u54C8\u5E0C\u8868\u548Cunordered_set\u4E0Eunordered_map\\Cities and States\\Cities and States\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E962947-116A-49D9-AC5B-73230493D794}|Cities and States\\Cities and States.vcxproj|solutionrelative:Cities and States\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6E90.cpp",
+              "DocumentMoniker": "D:\\\u5927\u4E8C\u4E0A\\\u54C8\u5E0C\u8868\u548Cunordered_set\u4E0Eunordered_map\\Cities and States\\Cities and States\\\u6E90.cpp",
+              "RelativeDocumentMoniker": "Cities and States\\\u6E90.cpp",
+              "ToolTip": "D:\\\u5927\u4E8C\u4E0A\\\u54C8\u5E0C\u8868\u548Cunordered_set\u4E0Eunordered_map\\Cities and States\\Cities and States\\\u6E90.cpp",
+              "RelativeToolTip": "Cities and States\\\u6E90.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-24T00:19:42.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
