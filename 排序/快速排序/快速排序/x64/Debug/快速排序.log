@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\大二上\排序\快速排序\快速排序\源.cpp(6,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\大二上\排序\快速排序\快速排序\源.cpp(22,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  快速排序.vcxproj -> D:\大二上\排序\快速排序\x64\Debug\快速排序.exe
