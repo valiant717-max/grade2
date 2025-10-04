@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "每日温度", "每日温度\每日温度.vcxproj", "{DA0979AF-9410-4901-9903-08E52EDE29EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA0979AF-9410-4901-9903-08E52EDE29EA}.Debug|x64.ActiveCfg = Debug|x64
+		{DA0979AF-9410-4901-9903-08E52EDE29EA}.Debug|x64.Build.0 = Debug|x64
+		{DA0979AF-9410-4901-9903-08E52EDE29EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA0979AF-9410-4901-9903-08E52EDE29EA}.Debug|x86.Build.0 = Debug|Win32
+		{DA0979AF-9410-4901-9903-08E52EDE29EA}.Release|x64.ActiveCfg = Release|x64
+		{DA0979AF-9410-4901-9903-08E52EDE29EA}.Release|x64.Build.0 = Release|x64
+		{DA0979AF-9410-4901-9903-08E52EDE29EA}.Release|x86.ActiveCfg = Release|Win32
+		{DA0979AF-9410-4901-9903-08E52EDE29EA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4AB4D74-2520-40D4-998B-E02DB121C7B0}
+	EndGlobalSection
+EndGlobal
