@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\大二上\哈希\两数之和\两数之和\源.cpp(17,1): warning C4715: “Solution::twoSum”: 不是所有的控件路径都返回值
+  两数之和.vcxproj -> D:\大二上\哈希\两数之和\x64\Debug\两数之和.exe
