@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\grade2\\\u6570\u7EC4\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4941205E-7EFD-4A93-921A-A48E37BD6CF6}|\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD.vcxproj|D:\\grade2\\\u6570\u7EC4\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4941205E-7EFD-4A93-921A-A48E37BD6CF6}|\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD.vcxproj|solutionrelative:\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6E90.cpp",
+              "DocumentMoniker": "D:\\grade2\\\u6570\u7EC4\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u6E90.cpp",
+              "RelativeDocumentMoniker": "\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u6E90.cpp",
+              "ToolTip": "D:\\grade2\\\u6570\u7EC4\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u6E90.cpp",
+              "RelativeToolTip": "\u627E\u5230\u5B57\u7B26\u4E32\u4E2D\u6240\u6709\u5B57\u6BCD\u5F02\u4F4D\u8BCD\\\u6E90.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-06T09:17:43.65Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

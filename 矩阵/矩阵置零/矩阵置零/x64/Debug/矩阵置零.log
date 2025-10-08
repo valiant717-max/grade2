@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\grade2\矩阵\矩阵置零\矩阵置零\源.cpp(8,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\grade2\矩阵\矩阵置零\矩阵置零\源.cpp(9,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  矩阵置零.vcxproj -> D:\grade2\矩阵\矩阵置零\x64\Debug\矩阵置零.exe
