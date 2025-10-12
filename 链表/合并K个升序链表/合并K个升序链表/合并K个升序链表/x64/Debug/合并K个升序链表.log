@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\grade2\链表\合并K个升序链表\合并K个升序链表\源.cpp(57,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\grade2\链表\合并K个升序链表\合并K个升序链表\源.cpp(74,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  合并K个升序链表.vcxproj -> D:\grade2\链表\合并K个升序链表\合并K个升序链表\x64\Debug\合并K个升序链表.exe
