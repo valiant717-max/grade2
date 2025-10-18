@@ -6,11 +6,12 @@
 using namespace std;
 
 // 判断运算符优先级：op1优先级 <= op2 则返回true
-//与左括号相关的比较返回true，从而触发入栈操作
+//与左括号相关的比较返回true，从而触发入栈操作,op1不可能是）
 bool priority(char op1, char op2) {
     if ((op1 == '+' || op1 == '-') && (op2 == '*' || op2 == '/')) return true;
-    if (op1 == '(' || op2 == '(') return true; // 左括号优先级最低
     if (op2 == ')') return false;
+    if (op1 == '(' || op2 == '(') return true; // 左括号优先级最低
+  
     return false;
 }
 
@@ -42,7 +43,8 @@ double evaluateInfix(const string& expr) {
 
     while (!optr.empty()) {
         char ch = (i < n) ? expr[i] : '='; // 到达末尾时用'='填充
-
+//允许 “小数点开头且后续有数字” 的合法小数（如 .123）
+// 同时拒绝 “小数点后无数字” 的非法格式（如 . 或 3.）
         if (isdigit(ch) || (ch == '.' && i + 1 < n && isdigit(expr[i + 1]))) {
             // 读取数字（支持小数）
             double num = 0.0;
@@ -64,6 +66,7 @@ double evaluateInfix(const string& expr) {
             }
             opnd.push(num);
         }
+
         else {
             // 处理运算符
             char topOp = optr.top();
