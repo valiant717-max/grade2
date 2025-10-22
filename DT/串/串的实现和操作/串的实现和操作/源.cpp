@@ -11,7 +11,7 @@ private:
     int length;  // 字符串长度
 
 public:
-    // 构造函数
+    // 带默认参数的构造函数,支持无参构造对象
     String(const char* str = "") {
         if (str == nullptr) {
             length = 0;
