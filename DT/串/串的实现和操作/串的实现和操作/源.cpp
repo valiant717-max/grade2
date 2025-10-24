@@ -45,7 +45,7 @@ public:
             data = new char[length + 1];
             strcpy(data, other.data);
         }
-        return *this;
+        return *this;//return *this 支持链式赋值如s1 = s2 = s3,返回当前对象的引用正好可以作为下一次赋值的右操作数
     }
 
     // 获取字符串长度
