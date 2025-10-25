@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 #include <cstring>
 #include <stdexcept>
 
@@ -20,6 +20,7 @@ public:
         }
         else {
             length = strlen(str);
+           //strlen 的参数必须是 const char*
             data = new char[length + 1];
             strcpy(data, str);
         }
@@ -45,7 +46,8 @@ public:
             data = new char[length + 1];
             strcpy(data, other.data);
         }
-        return *this;//return *this 支持链式赋值如s1 = s2 = s3,返回当前对象的引用正好可以作为下一次赋值的右操作数
+        return *this;//this 是一个指向当前对象的指针,*this解引用得到当前对象本身，具体返回的是对象的副本还是引用，取决于函数的返回类型
+        //return *this 支持链式赋值如s1 = s2 = s3,返回当前对象的引用正好可以作为下一次赋值的右操作数
     }
 
     // 获取字符串长度
@@ -107,7 +109,7 @@ public:
         }
 
         int i = 0;  // 主串索引
-        int j = 0;  // 模式串索引
+        int j = 0;  // 模式串索引 
 
         while (i < length && j < pattern.length) {
             if (data[i] == pattern.data[j]) {
@@ -162,6 +164,7 @@ public:
     // 打印字符串
     void print() const {
         cout << data << endl;
+//data是一个以'\0'结尾的字符串，则cout << data会正确输出整个字符串
     }
 
 private:
@@ -172,16 +175,20 @@ private:
         next[0] = -1;
 
         int k = -1;  // 前缀长度
-        int j = 0;   // 后缀索引
+        int j = 0;   // 后缀索引的下一个位置
 
         while (j < len - 1) {
-            if (k == -1 || pattern.data[j] == pattern.data[k]) {
-                k++;
+            if (k == -1|| pattern.data[j] == pattern.data[k]) {
+//k==-1说明之前没有匹配的前缀，直接从 0 开始尝试匹配,如果不匹配则将数组的第j位存入0，同时将k重新置为-1，依然从头开始匹配
+//若字符相等：当前前缀和后缀可以延长，因此 k（前缀长度）加 1，j（当前位置）加 1，此时 next[j] = k（记录当前最长匹配长度）。 
+//由于一开始的时候k设置成了-1.所以k++得到的就是下一个位置的前缀和长度  
+                k++; 
                 j++;
                 next[j] = k;
             }
             else {
                 k = next[k];
+//若字符不相等说明当前前缀无法匹配，需要缩短前缀长度。通过 k = next[k] 回溯到更短的前缀（利用已计算的 next 值，避免从头匹配），直到找到匹配的前缀或 k = -1
             }
         }
 
