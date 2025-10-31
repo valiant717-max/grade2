@@ -4,7 +4,7 @@
 using namespace std;
 //节点类型枚举
 enum NodeType{ATOM,LIST};
-
+ 
 struct GNode {
 	NodeType type;
 	union {
